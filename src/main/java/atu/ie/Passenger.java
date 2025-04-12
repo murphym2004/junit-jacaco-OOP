@@ -20,7 +20,7 @@ public class Passenger {
     this.Lname = Lname;
 }
 private boolean isValidTitle(String title){
-    return title.equals("mr")||title.equals("ms")||title.equals("mrs");
+    return title.equals("Mr")||title.equals("Ms")||title.equals("Mrs");
 }
 public String getTitle(){
     return title;
